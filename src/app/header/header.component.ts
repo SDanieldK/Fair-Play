@@ -6,7 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
+
+  isDaniel = true;
+  daniel = '';
+
+  danielSkills: [
+    {
+      uxDesign: 'Very Strong'
+    }
+    ];
+
   onFasie() {
-  console.log('hello');
-}
+    console.log('hello');
+  }
 }
